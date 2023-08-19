@@ -22,5 +22,5 @@ for (let i = 0 ; i < 10 ; i++) {
     string += '\n';
 }
 
-console.log(string)
+console.log(string);
 
