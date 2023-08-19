@@ -31,11 +31,5 @@ console.log('');
 
 */
 
-let s2 = ''
 
-for(let i = 0 ; i < 5 ; i++) {
-    s2 += '*'
-}
-
-console.log(s2)
 
