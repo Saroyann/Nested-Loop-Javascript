@@ -58,12 +58,11 @@ console.log('');
 
 let s3 = '';
 
-for (let i = 0 ; i > 10 ; i++){
-    for(let j = 0 ; j < i ; j++) {
-        
+for (let i = 0 ; i < 10 ; i++){
+    for(let j = 0 ; j <= i ; j++) {
         s3 += '*'
     }
     s3 += '\n'
 }
 
-console.log(s3)
+console.log(s3);
