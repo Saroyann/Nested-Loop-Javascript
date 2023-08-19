@@ -58,5 +58,7 @@ console.log('');
 
 let s3 = '';
 
-
+for (let i = 0 ; i > 10 ; i++) {
+    s3 += '\n'
+}
 
