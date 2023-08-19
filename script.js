@@ -31,5 +31,6 @@ console.log('');
 
 */
 
+let s2 = '';
 
 
