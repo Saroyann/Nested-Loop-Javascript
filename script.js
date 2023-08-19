@@ -13,16 +13,16 @@
 **********
 */
 
-let string = '';
+let s= '';
 
 for (let i = 0 ; i < 10 ; i++) {
     for(let j = 0 ; j <= i ; j++) {
-        string += '*';
+        s+= '*';
     }
-    string += '\n';
+    s+= '\n';
 }
 
-console.log(string);
+console.log(s);
 
 console.log('');
 
@@ -31,11 +31,4 @@ console.log('');
 
 */
 
-for(let i = 10 ; i < 0 ; i--) {
-    for(let j = 0 ; j < i ; j++) {
-        string += '*';
-    }
-    string += '\n'
-}
 
-console.log(string)
