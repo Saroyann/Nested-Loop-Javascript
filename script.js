@@ -1,5 +1,4 @@
-
-
+// javascript nested loop
 let s= '';
 
 for (let i = 0 ; i < 10 ; i++) {
