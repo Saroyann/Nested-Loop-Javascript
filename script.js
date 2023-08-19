@@ -32,5 +32,10 @@ console.log('');
 */
 
 let s2 = '';
+for (let i = 0 ; i < 10 ; i++) {
+    s2 += '*';
+    s2 += '\n';
+}
 
+console.log(s2)
 
