@@ -31,8 +31,8 @@ console.log('');
 
 let s2 = ''
 
-for (let k = 10 ; k > 0 ; k--) {
-    for(let l = 0 ; l < k ; l++) {
+for (let i = 10 ; i > 0 ; i--) {
+    for(let j = 0 ; j < i ; j++) {
         s2 += '*'
     }
     s2 += '\n'
@@ -55,6 +55,8 @@ console.log(s2)
 */
 
 console.log('');
+
+let s3 = '';
 
 
 
