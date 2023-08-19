@@ -13,20 +13,14 @@
 **********
 */
 
-let int = 10;
-let str = '*'
-let emptyString = '';
+let string = '';
 
-for(let i = 0 ; i < int ; i++) {
-    console.log(emptyString += str);
+for (let i = 0 ; i < 10 ; i++) {
+    for(let j = 0 ; j <= i ; j++) {
+        string += '*';
+    }
+    string += '\n';
 }
 
-console.log('')
+console.log(string)
 
-let int2 = 0;
-let str2 = '*';
-let emptyString2 = '';
-
-for(let i = 10 ; i > int2 ; i--) {
-    console.log(emptyString2 += str2)
-}
