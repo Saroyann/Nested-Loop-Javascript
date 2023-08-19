@@ -1,3 +1,4 @@
+// result 
 
 let int = 10;
 let str = '*'
