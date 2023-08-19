@@ -58,5 +58,5 @@ console.log('');
 
 let s3 = '';
 
-
+for (let i = 0 )
 
