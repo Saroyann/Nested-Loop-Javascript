@@ -178,14 +178,20 @@ result:
 
 // hollow right star triangle pattern
 
-let s6 = '';
-let n4 = 10;
+let n4 = 5; // Change the value of 'n' to set the number of rows
 
-for (let i = 0 ; i < n4 ; i++) {
-    for(let j = 0 ; j < n - i ; j++) {
-        
+for (let i = 1; i <= n; i++) {
+    let row = '';
+    
+    for (let j = 1; j <= n; j++) {
+        if (j === n || i === 1 || i === j) {
+            row += '*';
+        } else {
+            row += ' ';
+        }
     }
-    s6 += '\n'
+    
+    console.log(row);
 }
 
 
