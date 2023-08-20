@@ -136,7 +136,7 @@ result:
 
 console.log('');
 
-// 
+// hollow left star triangle pattern
 
 let s5 = '';
 let n3 = 10;
