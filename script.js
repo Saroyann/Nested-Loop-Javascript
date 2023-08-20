@@ -141,7 +141,11 @@ console.log('');
 let s5 = '';
 let n3 = 10;
 
-for(let i = 0 ; i < n3 ; i++ ) {
+for(let i = 1 ; i <= n3 ; i++ ) {
+    for(let j = 0 ; j < i ; j++) {
+        s5 += '*'
+    }
+    
     s5 += '\n'
 }
 
