@@ -1,4 +1,6 @@
 // javascript nested loop
+
+// left triangle star pattern
 let s= '';
 
 for (let i = 0 ; i < 10 ; i++) {
