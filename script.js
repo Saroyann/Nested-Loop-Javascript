@@ -178,21 +178,7 @@ result:
 
 // hollow right star triangle pattern
 
-let n4 = 5; // Change the value of 'n' to set the number of rows
 
-for (let i = 1; i <= n; i++) {
-    let row = '';
-    
-    for (let j = 1; j <= n; j++) {
-        if (j === n || i === 1 || i === j) {
-            row += '*';
-        } else {
-            row += ' ';
-        }
-    }
-    
-    console.log(row);
-}
 
 
 
