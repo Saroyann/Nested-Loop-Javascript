@@ -100,6 +100,8 @@ result :
 
 console.log('')
 
+// downward right star triangle pattern
+
 let s4 = '';
 let n2 = 10;
 
