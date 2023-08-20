@@ -32,7 +32,7 @@ result
 
 console.log('');
 
-
+// downward left star triangle pattern
 
 let s2 = ''
 
@@ -63,6 +63,8 @@ result:
 */
 
 console.log('');
+
+// right star triangle pattern
 
 let s3 = '';
 let n = 10;
