@@ -197,5 +197,28 @@ for (let i = 0; i < n4; i++) {
 
 console.log(s6);
 
+let s7 = '';
+let n5 = 10;
+
+for (let i = 0 ; i < n5 ; i++) {
+    for(let j = 0 ; j < n5 - 1 ; j++) {
+        s7 += ''
+    }
+    for(let k = 0 ; k <= i ; k++) {
+        if (k === i) {
+            s7 += ' '
+        } else {
+            if (k == 0 || k == i - 1) {
+                s7 += '*'
+            } else {
+                s7 += ' ';
+            }
+        }
+    }
+    s7 += '\n'
+}
+
+console.log(s7);
+
 
 
