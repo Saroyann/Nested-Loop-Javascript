@@ -146,7 +146,7 @@ for (let i = 1; i <= n3; i++) {
         if (i === n3) {
             s5 += '*'
         } else {
-            if ( j == 0 || j == i - 1 ) {
+            if (j == 0 || j == i - 1) {
                 s5 += '*';
             } else {
                 s5 += ' ';
@@ -214,7 +214,7 @@ result:
 **        
 *         
 
-*/ 
+*/
 
 console.log('');
 
@@ -307,7 +307,7 @@ function pascals(numRows) {
             if (col === 0 || col === row - 1) {
                 arr.push(1);
             } else {
-                arr.push((result[row-2][col-1] + result[row-2][col]));
+                arr.push((result[row - 2][col - 1] + result[row - 2][col]));
             }
         }
         result.push(arr);
@@ -316,6 +316,47 @@ function pascals(numRows) {
 }
 
 console.log(pascals(10));
+
+/* 
+
+result:
+
+0
+: 
+[1]
+1
+: 
+(2) [1, 1]
+2
+: 
+(3) [1, 2, 1]
+3
+: 
+(4) [1, 3, 3, 1]
+4
+: 
+(5) [1, 4, 6, 4, 1]
+5
+: 
+(6) [1, 5, 10, 10, 5, 1]
+6
+: 
+(7) [1, 6, 15, 20, 15, 6, 1]
+7
+: 
+(8) [1, 7, 21, 35, 35, 21, 7, 1]
+8
+: 
+(9) [1, 8, 28, 56, 70, 56, 28, 8, 1]
+9
+: 
+(10) [1, 9, 36, 84, 126, 126, 84, 36, 9, 1]
+
+*/
+
+console.log('');
+
+
 
 
 
