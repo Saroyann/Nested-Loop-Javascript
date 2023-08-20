@@ -159,6 +159,23 @@ for (let i = 1; i <= n3; i++) {
 
 console.log(s5);
 
+/* 
+
+result:
+
+*
+**
+* *
+*  *
+*   *
+*    *
+*     *
+*      *
+*       *
+**********
+
+*/
+
 // hollow right star triangle pattern
 
 let s6 = '';
