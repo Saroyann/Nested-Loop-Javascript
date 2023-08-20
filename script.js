@@ -161,6 +161,9 @@ console.log(s5);
 
 // hollow right star triangle pattern
 
+let s6 = '';
+let n4 = 10;
+
 
 
 
