@@ -182,7 +182,20 @@ let s6 = '';
 let n4 = 10;
 
 for (let i = 0 ; i < n4 ; i++) {
-    
+    for(let j = 0 ; j < n4 - 1 ; j++) {
+        s6 += ' '
+    }
+    for(let k = 0 ; k <= i ; k++) {
+        if (k === i) {
+            s6 += ' '
+        } else {
+            if (k == 0 || k == i - 1) {
+                s6 += '*'
+            } else {
+                s6 += ' ';
+            }
+        }
+    }
     s6 += '\n'
 }
 
