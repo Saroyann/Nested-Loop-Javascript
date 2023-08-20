@@ -162,3 +162,5 @@ console.log(s5);
 // hollow right star triangle pattern
 
 
+
+
