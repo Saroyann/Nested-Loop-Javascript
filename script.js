@@ -234,7 +234,7 @@ for (let i = n5; i > 0; i--) {
     s7 += '\n';
 }
 
-console.log(s7)
+console.log(s7);
 
 
 
