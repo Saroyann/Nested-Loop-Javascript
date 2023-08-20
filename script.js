@@ -182,7 +182,9 @@ let s6 = '';
 let n4 = 10;
 
 for (let i = 0 ; i < n4 ; i++) {
-    for(let j =)
+    for(let j = 0 ; j < n - i ; j++) {
+        
+    }
     s6 += '\n'
 }
 
