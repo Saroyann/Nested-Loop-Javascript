@@ -157,6 +157,6 @@ for (let i = 1; i <= n3; i++) {
     s5 += '\n'
 }
 
-console.log(s5)
+console.log(s5);
 
 
