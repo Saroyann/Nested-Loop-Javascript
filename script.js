@@ -183,7 +183,7 @@ let n4 = 10;
 
 for (let i = 0 ; i < n4 ; i++) {
     for(let j = 0 ; j < n4 - 1 ; j++) {
-        s6 += ' '
+        s6 += ''
     }
     for(let k = 0 ; k <= i ; k++) {
         if (k === i) {
@@ -198,6 +198,8 @@ for (let i = 0 ; i < n4 ; i++) {
     }
     s6 += '\n'
 }
+
+console.log(s6);
 
 
 
