@@ -178,24 +178,64 @@ result:
 
 // hollow right star triangle pattern
 
-let s6 = '';
+console.log('');
+
+let s10 = '';
+let n6 = 10;
+
+for (let i = 0; i < n6; i++) {
+    for (let j = i; j < n6 - 1; j++) {
+        s10 += ' ';
+    }
+    for (let k = 0; k <= i; k++) {
+        if (k === 0 || k === i || i === n6 - 1) {
+            s10 += '*';
+        } else {
+            s10 += ' ';
+        }
+    }
+    s10 += '\n';
+}
+
+console.log(s10.split("").reverse().join(""));
+
+/*
+
+result:
+
+**********
+*       * 
+*      *  
+*     *   
+*    *    
+*   *     
+*  *      
+* *       
+**        
+*         
+
+*/ 
+
+console.log('');
+
+let s9 = '';
 let n4 = 10;
 
 for (let i = 0; i < n4; i++) {
     for (let j = 0; j < n4 - i - 1; j++) {
-        s6 += ' ';
+        s9 += ' ';
     }
     for (let k = 0; k <= i; k++) {
         if (k === 0 || k === i || i === n4 - 1) {
-            s6 += '*';
+            s9 += '*';
         } else {
-            s6 += ' ';
+            s9 += ' ';
         }
     }
-    s6 += '\n';
+    s9 += '\n';
 }
 
-console.log(s6);
+console.log(s9);
 
 /* 
 
@@ -235,6 +275,31 @@ for (let i = n5 - 1; i >= 0; i--) {
 }
 
 console.log(s7);
+
+/* 
+
+result:
+
+**********
+ *       *
+  *      *
+   *     *
+    *    *
+     *   *
+      *  *
+       * *
+        **
+         *
+
+*/
+
+console.log('');
+
+
+
+
+
+
 
 
 
