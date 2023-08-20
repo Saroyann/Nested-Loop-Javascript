@@ -197,28 +197,5 @@ for (let i = 0; i < n4; i++) {
 
 console.log(s6);
 
-// let s6 = '';
-// let n4 = 10;
-
-// for (let i = 0 ; i < n4 ; i++) {
-//     for(let j = 0 ; j < n4 - 1 ; j++) { //ganti 1 dengan i
-//         s6 += '' //menambahkan spasi
-//     }
-//     for(let k = 0 ; k <= i ; k++) {
-//         if (k === i) { //
-//             s6 += ' '
-//         } else {
-//             if (k == 0 || k == i - 1) {
-//                 s6 += '*'
-//             } else {
-//                 s6 += ' ';
-//             }
-//         }
-//     }
-//     s6 += '\n'
-// }
-
-// console.log(s6);
-
 
 
