@@ -220,7 +220,7 @@ console.log('');
 let s7 = '';
 let n5 = 10;
 
-for (let i = 0; i < n5; i++) {
+for (let i = n5; i > 0; i--) {
     for (let j = 0; j < n5 - i - 1; j++) {
         s7 += ' ';
     }
@@ -233,6 +233,8 @@ for (let i = 0; i < n5; i++) {
     }
     s7 += '\n';
 }
+
+console.log(s7)
 
 
 
