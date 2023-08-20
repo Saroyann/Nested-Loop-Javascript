@@ -159,4 +159,6 @@ for (let i = 1; i <= n3; i++) {
 
 console.log(s5);
 
+// holloe right star triangle pattern
+
 
