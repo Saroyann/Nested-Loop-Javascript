@@ -146,11 +146,17 @@ for (let i = 1; i <= n3; i++) {
         if (i === n3) {
             s5 += '*'
         } else {
-            if ()
+            if ( j == 0 || j == i - 1 ) {
+                s5 += '*';
+            } else {
+                s5 += ' ';
+            }
         }
     }
 
     s5 += '\n'
 }
+
+console.log(s5)
 
 
