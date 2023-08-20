@@ -181,6 +181,10 @@ result:
 let s6 = '';
 let n4 = 10;
 
+for (let i = 0 ; i < n4 ; i++) {
+    
+}
+
 
 
 
